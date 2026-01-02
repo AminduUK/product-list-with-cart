@@ -65,9 +65,11 @@
                         </button>
 
                         <div class="quantity-selector hidden">
-                            <button class="decrease-quantity-btn"><img class="decrease-quantity" src="images/icon-decrement-quantity.svg" alt="decrease"></button>
+                            <button class="decrease-quantity-btn"><img class="decrease-quantity"
+                                    src="images/icon-decrement-quantity.svg" alt="decrease"></button>
                             <span class="quantity-text">1</span>
-                            <button class="increase-quantity-btn"><img class="increase-quantity" src="images/icon-increment-quantity.svg" alt="increase"></button>
+                            <button class="increase-quantity-btn"><img class="increase-quantity"
+                                    src="images/icon-increment-quantity.svg" alt="increase"></button>
                         </div>
                     </div>
                 </div>
@@ -88,9 +90,11 @@
                         </button>
 
                         <div class="quantity-selector hidden">
-                            <button class="decrease-quantity-btn"><img class="decrease-quantity" src="images/icon-decrement-quantity.svg" alt="decrease"></button>
+                            <button class="decrease-quantity-btn"><img class="decrease-quantity"
+                                    src="images/icon-decrement-quantity.svg" alt="decrease"></button>
                             <span class="quantity-text">1</span>
-                            <button class="increase-quantity-btn"><img class="increase-quantity" src="images/icon-increment-quantity.svg" alt="increase"></button>
+                            <button class="increase-quantity-btn"><img class="increase-quantity"
+                                    src="images/icon-increment-quantity.svg" alt="increase"></button>
                         </div>
                     </div>
                 </div>
@@ -111,9 +115,11 @@
                         </button>
 
                         <div class="quantity-selector hidden">
-                            <button class="decrease-quantity-btn"><img class="decrease-quantity" src="images/icon-decrement-quantity.svg" alt="decrease"></button>
+                            <button class="decrease-quantity-btn"><img class="decrease-quantity"
+                                    src="images/icon-decrement-quantity.svg" alt="decrease"></button>
                             <span class="quantity-text">1</span>
-                            <button class="increase-quantity-btn"><img class="increase-quantity" src="images/icon-increment-quantity.svg" alt="increase"></button>
+                            <button class="increase-quantity-btn"><img class="increase-quantity"
+                                    src="images/icon-increment-quantity.svg" alt="increase"></button>
                         </div>
                     </div>
                 </div>
@@ -134,9 +140,11 @@
                         </button>
 
                         <div class="quantity-selector hidden">
-                            <button class="decrease-quantity-btn"><img class="decrease-quantity" src="images/icon-decrement-quantity.svg" alt="decrease"></button>
+                            <button class="decrease-quantity-btn"><img class="decrease-quantity"
+                                    src="images/icon-decrement-quantity.svg" alt="decrease"></button>
                             <span class="quantity-text">1</span>
-                            <button class="increase-quantity-btn"><img class="increase-quantity" src="images/icon-increment-quantity.svg" alt="increase"></button>
+                            <button class="increase-quantity-btn"><img class="increase-quantity"
+                                    src="images/icon-increment-quantity.svg" alt="increase"></button>
                         </div>
                     </div>
                 </div>
@@ -157,9 +165,11 @@
                         </button>
 
                         <div class="quantity-selector hidden">
-                            <button class="decrease-quantity-btn"><img class="decrease-quantity" src="images/icon-decrement-quantity.svg" alt="decrease"></button>
+                            <button class="decrease-quantity-btn"><img class="decrease-quantity"
+                                    src="images/icon-decrement-quantity.svg" alt="decrease"></button>
                             <span class="quantity-text">1</span>
-                            <button class="increase-quantity-btn"><img class="increase-quantity" src="images/icon-increment-quantity.svg" alt="increase"></button>
+                            <button class="increase-quantity-btn"><img class="increase-quantity"
+                                    src="images/icon-increment-quantity.svg" alt="increase"></button>
                         </div>
                     </div>
                 </div>
@@ -180,9 +190,11 @@
                         </button>
 
                         <div class="quantity-selector hidden">
-                            <button class="decrease-quantity-btn"><img class="decrease-quantity" src="images/icon-decrement-quantity.svg" alt="decrease"></button>
+                            <button class="decrease-quantity-btn"><img class="decrease-quantity"
+                                    src="images/icon-decrement-quantity.svg" alt="decrease"></button>
                             <span class="quantity-text">1</span>
-                            <button class="increase-quantity-btn"><img class="increase-quantity" src="images/icon-increment-quantity.svg" alt="increase"></button>
+                            <button class="increase-quantity-btn"><img class="increase-quantity"
+                                    src="images/icon-increment-quantity.svg" alt="increase"></button>
                         </div>
                     </div>
                 </div>
@@ -203,9 +215,11 @@
                         </button>
 
                         <div class="quantity-selector hidden">
-                            <button class="decrease-quantity-btn"><img class="decrease-quantity" src="images/icon-decrement-quantity.svg" alt="decrease"></button>
+                            <button class="decrease-quantity-btn"><img class="decrease-quantity"
+                                    src="images/icon-decrement-quantity.svg" alt="decrease"></button>
                             <span class="quantity-text">1</span>
-                            <button class="increase-quantity-btn"><img class="increase-quantity" src="images/icon-increment-quantity.svg" alt="increase"></button>
+                            <button class="increase-quantity-btn"><img class="increase-quantity"
+                                    src="images/icon-increment-quantity.svg" alt="increase"></button>
                         </div>
                     </div>
                 </div>
@@ -218,10 +232,23 @@
 
             <div class="cart">
                 <h1 class="cart-heading">Your Cart (<span class="cart-count">0</span>)</h1>
-                <div class="cart-content">
-                    <img class="empty empty-cart-image" src="images/illustration-empty-cart.svg" alt="empty-cart">
-                    <p class="empty empty-cart-text">Your added items will appear here</p>
+                <div class="empty-cart">
+                    <img class="empty-cart-image" src="images/illustration-empty-cart.svg" alt="empty-cart">
+                    <p class="empty-cart-text">Your added items will appear here</p>
                 </div>
+                <template class="cart-item-template">
+                    <div class="cart-item">
+                        <div>
+                            <h3 class="cart-item-name"></h3>
+                            <div class="price-detail">
+                                <p class="cart-item-count"></p>
+                                <p class="cart-item-per-price"></p>
+                                <p class="cart-item-total-price"></p>
+                            </div>
+                        </div>
+                        <button class="remove-item-btn"><img src="images/icon-remove-item.svg" alt="remove"></button>
+                    </div>
+                </template>
             </div>
         </div>
 
