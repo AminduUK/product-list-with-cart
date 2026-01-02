@@ -223,7 +223,7 @@ body {
   color: hsl(12, 20%, 44%);
 }
 
-.remove-item-btn {
+.remove-from-cart {
   background-color: transparent;
   border: solid 2px hsl(12, 26%, 60%);
   border-radius: 50%;
