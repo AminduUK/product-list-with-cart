@@ -73,7 +73,7 @@ body {
   border: 1px solid hsl(12, 20%, 44%);
   cursor: pointer;
   z-index: 1;
-  transition: box-shadow 0.3s ease, border 0.3s ease;
+  transition: box-shadow 0.3s ease;
 }
 
 .add-to-cart:hover {
@@ -171,4 +171,8 @@ body {
   font-size: 18px;
   font-weight: 500;
   overflow: hidden;
+}
+
+.empty.hidden {
+  display: none;
 }
