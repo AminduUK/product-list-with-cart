@@ -5,6 +5,7 @@ let emptyCart = document.querySelector(".empty-cart");
 let cartCount = 0;
 const template = document.querySelector(".cart-item-template");
 
+
 products.forEach((product) => {
     const addToCart = product.querySelector(".add-to-cart");
     const quantitySelector = product.querySelector(".quantity-selector");
@@ -34,8 +35,8 @@ products.forEach((product) => {
         clone.querySelector(".cart-item-total-price").textContent = "$" + productPrice;
 
         cart.appendChild(clone);
-        
     });
+
 
     quantityDecrement.addEventListener("click", () => {
         if (quantity > 1) {
